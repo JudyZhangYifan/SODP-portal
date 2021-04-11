@@ -219,7 +219,7 @@ header .btnTertiary {
 #searchInput:focus {
     outline: none;
     border-color: white;
-    box-shadow: 0 0 0 2px var(--main-green);
+    box-shadow: 0 0 0 2px var(--new-yellow);
     transition: all .05s ease;
     -webkit-transition: all .05s ease;
 }
@@ -365,7 +365,7 @@ header .btnTertiary {
 }
 .greenBackground {
     margin-top: 142px;
-    background-color: var(--light-green);
+    background-color: var(--new-yellow);
     border-radius: 5px;
     padding: 24px 32px;
 }

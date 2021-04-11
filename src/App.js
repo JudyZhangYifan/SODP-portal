@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Switch, HashRouter, Route, BrowserRouter } from "react-router-dom";
+import React from 'react';
+import { Switch, HashRouter, Route } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 // import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +19,7 @@ function App() {
         <meta property="og:description" content="A SODP project building an open data portal for Lehigh!"/>
         <meta property="og:image" content={LehighIcon}/>
         {/* <meta property="og:url" content="https://stanfordopendata.org/"/> */}
-        <link rel="icon" type="image/png" href="LehighIcon" />
+        {/* <link rel="icon" type="image/png" href="LehighIcon" /> */}
       </Helmet>
 
       <div className={styles.wrapper}>

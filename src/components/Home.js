@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Datasets from '../components/Datasets.js';
 import styles from '../stylesheets/home.module.css'
 import LehighImage from '../images/lehigh.jpeg';
 import IdeaIcon from '../images/idea.png';
