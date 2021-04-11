@@ -15,6 +15,7 @@
     --light-background: #F4F4F4;
     --light-green: #9FE5D8;
     --new-blue: #1C75BC;
+    --new-yellow: #FDCB66;
     --new-teal: #00AFB7;
 }
 body {
@@ -61,7 +62,7 @@ a.btnPrimary, button.btnPrimary, button[type=submit] {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    background-color: var(--new-blue);
+    background-color: var(--new-yellow);
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
@@ -73,7 +74,7 @@ button[type=submit] {
     margin-top: 16px;
 }
 a.btnPrimary:hover, button.btnPrimary:hover, button[type=submit]:hover {
-    background-color: #3E98E2;
+    background-color: #FDCB66;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Datasets from '../components/Datasets.js';
 import styles from '../stylesheets/home.module.css'
 import LehighImage from '../images/lehigh.jpeg';
 import IdeaIcon from '../images/idea.png';
@@ -26,44 +28,48 @@ function Home() {
                 <div className={styles.exploreTitle}>Explore Our Data Portal</div>
                 <div className={styles.iconContainer}>
                     <div className={styles.column}>
-                        <div class={styles.circle1}>
+                        <div className={styles.circle1}>
+                            
                             <img src={IdeaIcon} className={styles.icon1} alt=""/>
                         </div>
 
-                        <div class={styles.circleTitle}>
+                        <div className={styles.circleTitle}>
                             Learn Open Data
                         </div>
 
-                        <div class={styles.circleText}>
+                        <div className={styles.circleText}>
                             Start learning what open data is and the power of open data.
+                            <Link to="/Resources" className={styles.button}> &#62; Learn More</Link>
                         </div>
                     </div>
 
                     <div className={styles.column}>
-                        <div class={styles.circle2}>
+                        <div className={styles.circle2}>
                             <img src={SearchIcon} className={styles.icon2} alt=""/>
                         </div>
 
-                        <div class={styles.circleTitle}>
+                        <div className={styles.circleTitle}>
                             Browse Datasets
                         </div>
 
-                        <div class={styles.circleText}>
-                            Take a look and browse the datasets we have in our data portal.
+                        <div className={styles.circleText}>
+                            Take a look and browse the datasets we have in our data portal. &ensp;
+                            <Link to="/Datasets" className={styles.button}> &#62; Learn More</Link>
                         </div>
                     </div>
 
                     <div className={styles.column}>
-                        <div class={styles.circle3}>
+                        <div className={styles.circle3}>
                             <img src={ContactIcon} className={styles.icon3} alt=""/>
                         </div>
 
-                        <div class={styles.circleTitle3}>
+                        <div className={styles.circleTitle3}>
                             Our Initiative
                         </div>
 
-                        <div class={styles.circleText3}>
+                        <div className={styles.circleText3}>
                             Get in touch with us, view our initiative and provide suggestions!
+                            <Link to="/About" className={styles.button}> &#62; Learn More</Link>
                         </div>
                     </div>
                 </div>

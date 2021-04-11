@@ -168,3 +168,14 @@
     font-family: Palanquin;
     
 }
+
+.button {
+    color: var(--new-yellow);
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #FCA481;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
