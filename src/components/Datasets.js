@@ -96,7 +96,7 @@ class Datasets extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('https://open-data-portal.s3.us-east-2.amazonaws.com/metadata.json')
+    axios.get('https://sodp-lehigh-dataportal.s3.us-east-2.amazonaws.com/metadata.json')
       .then(result => {
         this.setState({
           isLoaded: true,
@@ -224,7 +224,7 @@ class Datasets extends React.Component {
             {this.state.filteredItems.map(post => 
             <div>
               <Link to={{
-                pathname: '/datasets/' + post.name,
+                pathname: '/Datasets/' + post.name,
                 state: {
                   data: post,
                 }
@@ -253,7 +253,7 @@ function DatasetCard(props) {
     <div>
       <li>
         <Link to={{
-          pathname: "/datasets/" + props.name,
+          pathname: "/Datasets/" + props.name,
           state: {
               data: props,   
           }
