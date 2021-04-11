@@ -143,8 +143,28 @@
     color: white;
     max-width: 63%;
     margin-top: 3%;
+    margin-left: -5%;
+    font-size: 1.1vw;
+    font-weight: 100;
+    font-family: Poppins;
+}
+
+.circleText3 {
+    color: white;
+    max-width: 63%;
+    margin-top: 3%;
     margin-left: -7%;
     font-size: 1.1vw;
     font-weight: 100;
     font-family: Poppins;
+}
+
+.circleTitle3 {
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: Palanquin;
+    
 }

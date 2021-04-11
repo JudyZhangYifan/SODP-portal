@@ -58,11 +58,11 @@ function Home() {
                             <img src={ContactIcon} className={styles.icon3} alt=""/>
                         </div>
 
-                        <div class={styles.circleTitle}>
+                        <div class={styles.circleTitle3}>
                             Our Initiative
                         </div>
 
-                        <div class={styles.circleText2}>
+                        <div class={styles.circleText3}>
                             Get in touch with us, view our initiative and provide suggestions!
                         </div>
                     </div>
