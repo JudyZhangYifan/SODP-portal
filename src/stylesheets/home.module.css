@@ -1,0 +1,150 @@
+.wrapper {
+    position: relative;
+    padding-top: 2%;
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: #572000;
+}
+
+.image {
+    position: relative;
+}
+
+.homeImage {
+    max-width: 50%;
+    height: auto;
+}
+
+.overlay {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border:none;
+    border-top-right-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+}
+
+.welcomeTitle {
+    position: absolute;
+    top: 10%;
+    left: 52%;
+    max-width: 50%;
+    color: white;
+    font-size: 4vw;
+    font-family: Rozha One;
+}
+
+.welcomeText {
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    max-width: 43%;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 100;
+    font-family: Poppins;
+}
+
+.exploreTitle {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 2%;
+    max-width: 50%;
+    color: white;
+    font-size: 2vw;
+    font-family: Rozha One;
+}
+
+.iconContainer {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+.icon1 {
+    max-width: 70%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 14%;
+    margin-right: 10%;
+
+}
+
+.circle1 {
+    background: #9BC8D1;
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    display:inline-block;
+}
+
+.icon2 {
+    max-width: 65%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 24%;
+    margin-right: 10%;
+}
+
+.circle2 {
+    background: #BAD19B;
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    display:inline-block;
+}
+
+.icon3 {
+    max-width: 70%;
+    margin-top: 13%;
+    margin-bottom: 10%;
+    margin-left: 16%;
+    margin-right: 10%;
+}
+
+.circle3 {
+    background: #D19BAF;
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    display:inline-block;
+}
+
+.circleTitle {
+    color: white;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: Palanquin;
+    
+}
+
+.circleText {
+    color: white;
+    max-width: 58%;
+    margin-top: 3%;
+    margin-left: -7%;
+    font-size: 1.1vw;
+    font-weight: 100;
+    font-family: Poppins;
+}
+
+.circleText2 {
+    color: white;
+    max-width: 63%;
+    margin-top: 3%;
+    margin-left: -7%;
+    font-size: 1.1vw;
+    font-weight: 100;
+    font-family: Poppins;
+}

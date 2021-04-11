@@ -1,0 +1,36 @@
+.nav {
+    width: 30%;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    padding: 0rem !important;
+}
+
+nav div.navbar-collapse a {
+    color: var(--main-black) !important;
+    text-decoration: none;
+}
+nav div.navbar-collapse a {
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+nav .leftNav {
+    margin-left: 0;
+}
+nav div.navbar-collapse a:hover {
+    color: var(--new-teal) !important;
+    transition: all .2s ease !important;
+    -webkit-transition: all .2s ease !important;
+}
+
+nav .dropdown-item {
+  padding: .5rem 0;
+  background-color: transparent !important;
+}
+
+.navBarLink {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white !important;
+}
