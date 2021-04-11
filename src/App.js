@@ -18,7 +18,7 @@ function App() {
         <meta property="og:description" content="A SODP project building an open data portal for Lehigh!"/>
         <meta property="og:image" content={LehighIcon}/>
         {/* <meta property="og:url" content="https://stanfordopendata.org/"/> */}
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" type="image/png" href="LehighIcon" />
         </Helmet>
 
       <div className={styles.wrapper}>
