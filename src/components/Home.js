@@ -5,6 +5,10 @@ import LehighImage from '../images/lehigh.jpeg';
 import IdeaIcon from '../images/idea.png';
 import SearchIcon from '../images/transparency.png';
 import ContactIcon from '../images/honesty.png';
+import BarchartIcon from '../images/educational-bars-graphic.png';
+import GraduationIcon from '../images/graduation.png';
+import MajorIcon from '../images/paint.png';
+import GlobeIcon from '../images/school-globe.png';
 
 function Home() {
     return (
@@ -75,6 +79,32 @@ function Home() {
                 </div>
 
 
+            </div>
+
+            <div className={styles.wrapper2}>
+                <div className={styles.searchTitle}>Search Data by Category</div>
+                <div className={styles.searchIconContainer}>
+                    <div className={styles.column2}>
+                        <img src={BarchartIcon} className={styles.searchIcon} alt=""/>
+                        <div className={styles.searchIconTitle}>Admission</div>
+                    </div>
+
+                    <div className={styles.column2}>
+                        <img src={GraduationIcon} className={styles.searchIcon} alt=""/>
+                        <div className={styles.searchIconTitle2}>Graduation</div>
+                    </div>
+
+                    <div className={styles.column2}>
+                        <img src={MajorIcon} className={styles.searchIcon} alt=""/>
+                        <div className={styles.searchIconTitle3}>Major</div>
+                    </div>
+
+                    <div className={styles.column2}>
+                        <img src={GlobeIcon} className={styles.searchIcon} alt=""/>
+                        <div className={styles.searchIconTitle4}>Diversity</div>
+                    </div>
+
+                </div>
             </div>
             
             

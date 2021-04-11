@@ -42,7 +42,12 @@ function App() {
       </div>
 
       <footer>
-        <div className={styles.footer}>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a></div>
+        <div className={styles.footer}>
+          Source code on <a href="https://github.com/JudyZhangYifan/SODP-portal" className={styles.footerLink}> GitHub </a> &ensp;&#x2219;&ensp;
+          Inspired by <a href="https://github.com/StanfordOpenData/open-data-portal" className={styles.footerLink}> Stanford Open Data Portal</a> &ensp;&#x2219;&ensp;
+          Icons made by <a href="https://www.freepik.com" title="Freepik" className={styles.footerLink}>Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" className={styles.footerLink}>Flaticon</a> &ensp;&#x2219;&ensp;
+          Hosted on <a href="https://sodp-lehigh-portal.herokuapp.com/" className={styles.footerLink}>Heroku</a>
+        </div>
       </footer>
 
     </div>

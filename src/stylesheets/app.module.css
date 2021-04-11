@@ -27,5 +27,16 @@
 }
 
 .footer {
+    color: #572000;
     margin-left: 1em;
+    text-align: center;
+}
+
+.footerLink {
+    color: #EBAF0C;
+}
+
+.footerLink:hover {
+
+    color: #EB5A26;
 }

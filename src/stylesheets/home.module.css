@@ -2,7 +2,6 @@
     position: relative;
     padding-top: 2%;
     width: 100%;
-    padding-bottom: 2%;
     background-color: #572000;
 }
 
@@ -178,4 +177,75 @@
     color: #FCA481;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
+}
+
+.wrapper2 {
+    position: relative;
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+.searchTitle {
+    position: relative;
+    margin-left: 2%;
+    max-width: 50%;
+    color: #572000;
+    font-size: 2vw;
+    font-family: Rozha One;
+}
+
+.searchIconContainer {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+
+.column2 {
+    flex: 25%;
+}
+
+.searchIcon {
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+    margin-right: 10%;
+}
+
+.searchIconTitle {
+    color: #7E4E03;
+    margin-left: 12%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: Palanquin;
+}
+
+.searchIconTitle2 {
+    color: #7E4E03;
+    margin-top: -1%;
+    margin-left: 12%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: Palanquin;
+}
+
+.searchIconTitle3 {
+    color: #7E4E03;
+    margin-top: -1%;
+    margin-left: 20.5%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: Palanquin;
+}
+
+.searchIconTitle4 {
+    color: #7E4E03;
+    margin-top: -1%;
+    margin-left: 15%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: Palanquin;
 }
