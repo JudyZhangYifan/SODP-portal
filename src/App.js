@@ -7,6 +7,7 @@ import styles from './stylesheets/app.module.css'
 import NavBar from './components/Navbar.js';
 import Home from './components/Home.js';
 import Datasets from './components/Datasets.js';
+import DatasetDetails from './components/DatasetDetails.js';
 import LehighIcon from './images/LehighU_icon.png';
 
 function App() {
@@ -31,8 +32,8 @@ function App() {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/Datasets' component={Datasets} />
-                {/* <Route path='/datasets/:name' component={DatasetDetails} />
-                <Route exact path='/aboutus' component={AboutUs} />
+                <Route path='/Datasets/:name' component={DatasetDetails} />
+                {/* <Route exact path='/aboutus' component={AboutUs} />
                 <Route path="*" component={NotFound} /> */}
               </Switch>
             </div>
