@@ -47,8 +47,8 @@ function Home() {
                         </div>
 
                         <div className={styles.circleText}>
-                            Start learning what open data is and the power of open data.
-                            <Link to="/Resources" className={styles.button}> &#62; Learn More</Link>
+                            Start learning what open data is and the power of open data.  &ensp;
+                            <a href="https://opendatacampus.com/" className={styles.button}>&#62; Learn More</a> 
                         </div>
                     </div>
 

@@ -149,12 +149,12 @@ class Datasets extends React.Component {
     return (
       <div>
         <div className = "sideBar desktop">
-          <div className="greenBackground">
+          {/* <div className="greenBackground">
             <h1>What's this?</h1>
             <p>The Stanford Open Data Portal structures and stores university data for public use.
             Use this page to search for datasets either through the search bar or delimited by the drop-down categories!
             </p>
-          </div>
+          </div> */}
         </div>
         <div id="datasetsAnchor" className="mainContent">
           <div className="datasetFilters">
@@ -172,8 +172,8 @@ class Datasets extends React.Component {
                     ...theme,
                     colors: {
                       ...theme.colors,
-                      primary25: '#9FE5D8',
-                      primary: '#11BF9F',
+                      primary25: '#F7E5D7',
+                      primary: '#FDCB66',
                     },
                   })}
                 />
@@ -191,8 +191,8 @@ class Datasets extends React.Component {
                       ...theme,
                       colors: {
                         ...theme.colors,
-                        primary25: '#9FE5D8',
-                        primary: '#11BF9F',
+                        primary25: '#F7E5D7',
+                        primary: '#FDCB66',
                       },
                     })}
                   />
@@ -210,8 +210,8 @@ class Datasets extends React.Component {
                       ...theme,
                       colors: {
                         ...theme.colors,
-                        primary25: '#9FE5D8',
-                        primary: '#11BF9F',
+                        primary25: '#F7E5D7',
+                        primary: '#FDCB66',
                       },
                     })}
                   />

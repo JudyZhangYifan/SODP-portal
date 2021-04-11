@@ -1,0 +1,114 @@
+.wrapper {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 100%;
+    background-color: #572000;
+}
+
+.iconContainer {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+
+.column {
+    flex: 50%;
+}
+
+.textLink {
+    color: #FCA481;
+}
+
+.textLink:hover {
+    color: #EBAF0C;
+}
+
+.textLink2 {
+    color: #710C17;
+}
+
+.textLink2:hover {
+    color: #7D483D;
+}
+
+.circle1 {
+    position: relative;
+    background: rgba(251, 240, 211, 0.38);
+    border-radius: 50%;
+    width: 50vw;
+    height: 45vw;
+    margin-left: -25%;
+}
+
+.circleTitle1 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 20%;
+    color: white;
+    font-size: 3.2vw;
+    font-weight: 900;
+    font-family: Rozha One;
+    
+}
+
+.text1 {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 17%;
+    max-width: 70%;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Poppins;
+}
+
+.circle2 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 50%;
+    width: 70vw;
+    height: 60vw;
+    margin-left: -35%;
+    margin-top: 30%;
+}
+
+.circleTitle2 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 34%;
+    color: #AA452F;
+    font-size: 3.2vw;
+    font-weight: 900;
+    font-family: Rozha One;
+    
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+    max-width: 70%;
+    color: #AA452F;
+    font-size: 1.5vw;
+    font-family: Poppins;
+}
+
+.circle3 {
+    position: absolute;
+    background: rgba(210, 156, 17, 0.51);
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    margin-left: 25%;
+    margin-top: 80%;
+}
+
+.circle4 {
+    position: absolute;
+    background: rgba(210, 156, 17, 0.51);
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 55%;
+    margin-top: -18%;
+}

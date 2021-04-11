@@ -22,8 +22,8 @@ function NavBar() {
             <Nav className="ml-auto">
               <Nav.Link href="#/" className={styles.navBarLink}>Home</Nav.Link>
               <Nav.Link href="#/Datasets" className={styles.navBarLink}>Datasets</Nav.Link>
-              <Nav.Link href="#/About" className={styles.navBarLink}>About Us</Nav.Link>
-              <Nav.Link href="#/Resources" className={styles.navBarLink}>Resources</Nav.Link>
+              <Nav.Link href="#/About" className={styles.navBarLink}>About</Nav.Link>
+              <Nav.Link href="https://opendatacampus.com/" className={styles.navBarLink}>Resources</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           

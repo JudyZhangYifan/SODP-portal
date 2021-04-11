@@ -8,6 +8,7 @@ import NavBar from './components/Navbar.js';
 import Home from './components/Home.js';
 import Datasets from './components/Datasets.js';
 import DatasetDetails from './components/DatasetDetails.js';
+import About from './components/About.js';
 import LehighIcon from './images/LehighU_icon.png';
 
 function App() {
@@ -33,8 +34,8 @@ function App() {
                 <Route exact path='/' component={Home} />
                 <Route exact path='/Datasets' component={Datasets} />
                 <Route path='/Datasets/:name' component={DatasetDetails} />
-                {/* <Route exact path='/aboutus' component={AboutUs} />
-                <Route path="*" component={NotFound} /> */}
+                <Route exact path='/About' component={About} />
+                {/* <Route path="*" component={NotFound} /> */}
               </Switch>
             </div>
           </HashRouter>
