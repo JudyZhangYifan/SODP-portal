@@ -26,6 +26,12 @@ function Home() {
                     Welcome to the Lehigh Open Data Portal! Here we have a catalog of open data in Lehigh University. We believe that having data shared comes with great value, so we invite you to browse our datasets and explore more!
                 </div>
 
+                <div className={styles.welcomeQuote}>
+                “Data really powers everything that we do.”
+                </div>
+
+                <div className={styles.welcomeAuthor}>– Jeff Weiner</div>
+
             </div>
 
             <div>

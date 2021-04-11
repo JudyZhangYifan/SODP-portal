@@ -48,6 +48,32 @@
     font-family: Poppins;
 }
 
+.welcomeQuote {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    max-width: 43%;
+    color: var(--new-yellow);
+    font-size: 1.6vw;
+    font-weight: 100;
+    font-family: Playfair Display;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+.welcomeAuthor {
+    position: absolute;
+    top: 80%;
+    left: 83%;
+    max-width: 43%;
+    color: var(--new-yellow);
+    font-size: 1.6vw;
+    font-weight: 100;
+    font-family: Playfair Display;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
 .exploreTitle {
     position: relative;
     margin-top: 5%;
