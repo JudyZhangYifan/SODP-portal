@@ -83,11 +83,13 @@ a.btnPrimary:hover, button.btnPrimary:hover, button[type=submit]:hover {
     border: 1px solid var(--main-outline);
     padding: 8px 16px;
     border-radius: 5px;
+    color: #BD4722 !important;
 }
 .btnSecondary:hover {
-    border-color: var(--new-teal);
+    border-color: rgba(251, 240, 211, 0.38);
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
+    color: #EBAF0C !important;
 }
 .btnTertiary {
     font-weight: 600;
@@ -277,6 +279,7 @@ header .btnTertiary {
     font-size: 16px;
     color: var(--main-black);
     margin-top: 8px;
+    max-width: 80%;
 }
 .datasetFacts span {
     margin-right: 16px;
@@ -483,7 +486,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
   .table_scroll {
     height:500px;
-    width:100%;
+    width:80%;
     overflow:auto;
   }
 
